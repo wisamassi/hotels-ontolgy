@@ -7,44 +7,61 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="https://github.com/wisamassi/hotels-ontology/blob/master/hotelOntology.owl"/>
+    
 
-    <!-- https://github.com/wisamassi/hotels-ontology/blob/master/hotelOntology.owl#description -->
 
-    <owl:DatatypeProperty rdf:about="https://github.com/wisamassi/hotels-ontology/blob/master/hotelOntology.owl#description">
-        <rdfs:domain rdf:resource="https://github.com/wisamassi/hotels-ontology/blob/master/hotelOntology.owl#Hotel"/>
+    <!-- https://github.com/wisamassi/hotels-ontolgy/blob/master/hotelOntolgy.owl#description -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/wisamassi/hotels-ontolgy/blob/master/hotelOntolgy.owl#description">
+        <rdfs:domain rdf:resource="https://github.com/wisamassi/hotels-ontolgy/blob/master/hotelOntolgy.owl#Hotel"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://github.com/wisamassi/hotels-ontology/blob/master/hotelOntology.owl#location -->
+    <!-- https://github.com/wisamassi/hotels-ontolgy/blob/master/hotelOntolgy.owl#link -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/wisamassi/hotels-ontolgy/blob/master/hotelOntolgy.owl#link">
+        <rdfs:domain rdf:resource="https://github.com/wisamassi/hotels-ontolgy/blob/master/hotelOntolgy.owl#Hotel"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    </owl:DatatypeProperty>
     
-    <owl:DatatypeProperty rdf:about="https://github.com/wisamassi/hotels-ontology/blob/master/hotelOntology.owl#location">
-        <rdfs:domain rdf:resource="https://github.com/wisamassi/hotels-ontology/blob/master/hotelOntology.owl#Hotel"/>
+
+
+    <!-- https://github.com/wisamassi/hotels-ontolgy/blob/master/hotelOntolgy.owl#location -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/wisamassi/hotels-ontolgy/blob/master/hotelOntolgy.owl#location">
+        <rdfs:domain rdf:resource="https://github.com/wisamassi/hotels-ontolgy/blob/master/hotelOntolgy.owl#Hotel"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://github.com/wisamassi/hotels-ontology/blob/master/hotelOntology.owl#name -->
+    <!-- https://github.com/wisamassi/hotels-ontolgy/blob/master/hotelOntolgy.owl#name -->
 
-    <owl:DatatypeProperty rdf:about="https://github.com/wisamassi/hotels-ontology/blob/master/hotelOntology.owl#name">
-        <rdfs:domain rdf:resource="https://github.com/wisamassi/hotels-ontology/blob/master/hotelOntology.owl#Hotel"/>
+    <owl:DatatypeProperty rdf:about="https://github.com/wisamassi/hotels-ontolgy/blob/master/hotelOntolgy.owl#name">
+        <rdfs:domain rdf:resource="https://github.com/wisamassi/hotels-ontolgy/blob/master/hotelOntolgy.owl#Hotel"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://github.com/wisamassi/hotels-ontology/blob/master/hotelOntology.owl#rating -->
+    <!-- https://github.com/wisamassi/hotels-ontolgy/blob/master/hotelOntolgy.owl#rating -->
 
-    <owl:DatatypeProperty rdf:about="https://github.com/wisamassi/hotels-ontology/blob/master/hotelOntology.owl#rating">
-        <rdfs:domain rdf:resource="https://github.com/wisamassi/hotels-ontology/blob/master/hotelOntology.owl#Hotel"/>
+    <owl:DatatypeProperty rdf:about="https://github.com/wisamassi/hotels-ontolgy/blob/master/hotelOntolgy.owl#rating">
+        <rdfs:domain rdf:resource="https://github.com/wisamassi/hotels-ontolgy/blob/master/hotelOntolgy.owl#Hotel"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
     </owl:DatatypeProperty>
-       
+    
+
+    
 
 
-    <!-- https://github.com/wisamassi/hotels-ontology/blob/master/hotelOntology.owl#Hotel -->
+    <!-- https://github.com/wisamassi/hotels-ontolgy/blob/master/hotelOntolgy.owl#Hotel -->
 
-    <owl:Class rdf:about="https://github.com/wisamassi/hotels-ontology/blob/master/hotelOntology.owl#Hotel"/>
+    <owl:Class rdf:about="https://github.com/wisamassi/hotels-ontolgy/blob/master/hotelOntolgy.owl#Hotel"/>
 </rdf:RDF>
+
+
+
+
